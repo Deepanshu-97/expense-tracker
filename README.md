@@ -8,6 +8,9 @@ In the project directory, you can run:
 
 ### `npm start`
 
+![expense-tracker](https://user-images.githubusercontent.com/29181884/127323581-0a6dab24-372d-4c57-a279-941a76215f82.png)
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
