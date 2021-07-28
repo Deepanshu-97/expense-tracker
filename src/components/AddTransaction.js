@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 
 export const AddTransaction = () => {
-  const [amount, setAmount] = useState();
+  const [amount, setAmount] = useState('');
   const [err, setErr] = useState();
 
   const { createTransaction } = useContext(GlobalContext);
@@ -16,7 +16,7 @@ export const AddTransaction = () => {
       };
 
       createTransaction(newTransaction);
-      setAmount(0);
+      setAmount('');
       setErr();
     } else setErr("Amount should be greater than 0");
   };
